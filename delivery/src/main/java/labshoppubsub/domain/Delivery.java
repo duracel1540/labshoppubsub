@@ -21,6 +21,8 @@ public class Delivery {
 
     private Long orderId;
 
+    private String customerId;
+
     public static DeliveryRepository repository() {
         DeliveryRepository deliveryRepository = DeliveryApplication.applicationContext.getBean(
             DeliveryRepository.class

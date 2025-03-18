@@ -102,6 +102,7 @@
             
             me.newValue = {
                 'orderId': 0,
+                'customerId': '',
             }
         },
         methods:{
