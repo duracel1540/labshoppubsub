@@ -63,6 +63,7 @@
                     { text: "id", value: "id" },
                     { text: "orderId", value: "orderId" },
                     { text: "customerId", value: "customerId" },
+                    { text: "address", value: "address" },
                 ],
             delivery : [],
             newValue: {},
@@ -82,6 +83,7 @@
             this.newValue = {
                 'orderId': 0,
                 'customerId': '',
+                'address': '',
             }
         },
         methods: {
