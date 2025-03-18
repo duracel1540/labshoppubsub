@@ -20,6 +20,7 @@
             <Number label="Qty" v-model="value.qty" :editMode="editMode" :inputUI="''"/>
             <String label="CustomerId" v-model="value.customerId" :editMode="editMode" :inputUI="''"/>
             <Number label="Amount" v-model="value.amount" :editMode="editMode" :inputUI="''"/>
+            <String label="Address" v-model="value.address" :editMode="editMode" :inputUI="''"/>
         </v-card-text>
 
         <v-card-actions style="background-color: white;">

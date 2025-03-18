@@ -23,6 +23,8 @@ public class Delivery {
 
     private String customerId;
 
+    private String address;
+
     public static DeliveryRepository repository() {
         DeliveryRepository deliveryRepository = DeliveryApplication.applicationContext.getBean(
             DeliveryRepository.class

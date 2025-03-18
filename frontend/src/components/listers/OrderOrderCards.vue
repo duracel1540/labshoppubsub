@@ -105,6 +105,7 @@
                 'qty': 0,
                 'customerId': '',
                 'amount': 0,
+                'address': '',
             }
         },
         methods:{
